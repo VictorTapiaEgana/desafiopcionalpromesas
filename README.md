@@ -30,8 +30,7 @@ async function obteberDatos(url){
         
 
     } catch (error) {
-
-    //    document.write(`Error de Coneccion : <hr> ${error}`)
+    
         errorr.textContent = (`Error de Coneccion :${error}`)
 
         
